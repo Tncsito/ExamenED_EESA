@@ -14,7 +14,7 @@ namespace ExamenED_EESA.Datos
             int total2 = 0;
             int total3 = 0;
             int total4 = 0;
-            //             0   1    2    3    4    5  6   7     8     9    10  11     0   1    2     3   4     5   6   7    8    9    10    11
+
             int[,] a = { { 1, 500, 1000, 250, 400, 60, 2, 3000, 150, 1800, 130, 20}, { 3, 100, 200, 2900, 90, 4000, 4, 400, 500, 300, 2400, 3600 } };
             Console.WriteLine($"El vendedor {a[0, 0]} tuvo ganancias de");
             for (int i = 1; i < 6; i++)
@@ -48,8 +48,7 @@ namespace ExamenED_EESA.Datos
         public void dos()
         {
             char[] a = new char[18];
-            //012345678910
-            //SAAE040229H
+
             Console.WriteLine("Dame tu curp letra por letra");
             for (int i = 0; i < a.Length; i++)
             {
